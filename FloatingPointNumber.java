@@ -21,6 +21,21 @@ public class FloatingPointNumber {
         System.out.println("\t Type 2: = " + String.format("%.5f", fnum));
         System.out.println("\t Type 3: = " + NumberFormat.getInstance().format(fnum));
 
+        //Int - Float compatibility
+        float fa, fb;
+        int a; //int b;
+        a = 2;
+        fa = a;
+        fb = fa * 2;
+        //b = fb; //we cannot assign float to int
+        System.out.println("\n\tInt-Float Compatibility...");
+        System.out.println("\t---------------------------------");
+        System.out.println("\t a = "+ a);
+        System.out.println("\t fa = "+ fa);
+        System.out.println("\t fb = "+ fb);
+        // System.out.println("\t b = "+ b);
+
+        
         System.out.println();
         input.close();
     }
