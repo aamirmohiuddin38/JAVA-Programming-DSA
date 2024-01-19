@@ -44,6 +44,18 @@ public class FloatingPointNumber {
         System.out.println("\t Round fnum: "+ Math.round(fnum));
         System.out.println("\t Truncate fnum: "+ (int)(fnum)); //truncate by casting
 
+        // Typecasting
+        System.out.println("\n\tTypecasting...");
+        System.out.println("\t---------------------------------");
+        System.out.println("\t PERCENTAGE Example...");
+        System.out.println("\t---------------------------------");
+
+        int marks = 43, outof = 50;
+        float fpercent;
+        fpercent = (float)marks / outof * 100; //casting to float - explicit
+
+        System.out.println("\t MarksObtained = "+ marks + " | MaxMarks = "+ outof );
+        System.out.println("\t Percentage = " + fpercent + " %");
         
         System.out.println();
         input.close();
