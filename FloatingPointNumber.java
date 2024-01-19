@@ -1,4 +1,5 @@
 // Floating Point Numbers - Beginner
+import java.text.NumberFormat;
 import java.util.Scanner;
 public class FloatingPointNumber {
     public static void main(String args[]){
@@ -18,6 +19,7 @@ public class FloatingPointNumber {
         System.out.println("\tDefault Format: = "+ fnum);
         System.out.println("\t Type 1: = " + String.format("%4.2f", fnum));
         System.out.println("\t Type 2: = " + String.format("%.5f", fnum));
+        System.out.println("\t Type 3: = " + NumberFormat.getInstance().format(fnum));
 
         System.out.println();
         input.close();
