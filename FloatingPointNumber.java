@@ -35,6 +35,15 @@ public class FloatingPointNumber {
         System.out.println("\t fb = "+ fb);
         // System.out.println("\t b = "+ b);
 
+        // FLOOR, CEIL and ROUND
+        System.out.println("\n\tFLOOR,CEIL and ROUND methods...");
+        System.out.println("\t----------------------------------");
+        System.out.println("\t Default fnum: "+fnum);
+        System.out.println("\t Floor fnum: "+ Math.floor(fnum));
+        System.out.println("\t Ceil fnum: "+ Math.ceil(fnum));
+        System.out.println("\t Round fnum: "+ Math.round(fnum));
+        System.out.println("\t Truncate fnum: "+ (int)(fnum)); //truncate by casting
+
         
         System.out.println();
         input.close();
