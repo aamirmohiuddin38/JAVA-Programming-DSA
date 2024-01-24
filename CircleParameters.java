@@ -1,7 +1,7 @@
 //Program to Calcuate Circle's - Circumference and Area
 import java.util.Scanner;
 public class CircleParameters {
-    static final float pi = 3.142f;
+    static final float PI = 3.142f;
     public static void main(String args[]){
     System.out.println("\033\143");
     System.out.println("Java | Programming");
@@ -17,8 +17,8 @@ public class CircleParameters {
 
     //Calculations
     dia = 2 * rad;
-    cir = 2 * pi * rad;
-    area = pi * rad * rad;
+    cir = 2 * PI * rad;
+    area = PI * rad * rad;
     
     //Display results
     System.out.println("\n\t Results...");
@@ -31,3 +31,11 @@ public class CircleParameters {
     input.close();
     }
 }
+/*Java does not directly support the constants. There is an alternative way to define the constants in 
+Java by using the non-access modifiers static and final.In Java, to declare any variable as constant, we use static and final modifiers. It is also known as non-access modifiers. 
+According to the Java naming convention the identifier name must be in caPItal letters.
+
+    The purpose to use the static modifier is to manage the memory.
+    It also allows the variable to be available without loading any instance of the class in which it is defined.
+    The final modifier represents that the value of the variable cannot be changed. It also makes the primitive data type immutable or unchangeable.
+ */
