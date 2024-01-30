@@ -8,7 +8,7 @@ public class DecisionMaking {
         System.out.println("Decsion Making Statements...");
         Scanner input = new Scanner(System.in);
 
-        int a, b;
+        int a, b, max;
         System.out.print("\n Enter a: | ");
         a = input.nextInt();
         System.out.print(" Enter b: | ");
@@ -47,12 +47,23 @@ public class DecisionMaking {
             System.out.println("\t 'a' and 'b' are equal");
         }
 
-         // IF-ELSE Statement - ONELINER
+        // IF-ELSE Statement - ONELINER
         System.out.println("\n\t ----------------------------------");
         System.out.println("\t IF-ELSE in ONELINE...");
         System.out.println("\t ----------------------------------");
         if(a % 2 == 0) System.out.println("\t 'a' is EVEN");
         else System.out.println("\t 'a' is ODD");
+
+        // IF-ELSE Statement - ONELINER
+        System.out.println("\n\t ----------------------------------");
+        System.out.println("\t TERNERY IF-ELSE...");
+        System.out.println("\t ----------------------------------");
+        max = (a > b) ? a : b;
+        System.out.println("\t max = " + max);
+        // (a > b) ? System.out.println("\t max is " + a) : System.out.println("\t max is " + b);
+        
+        /* the ternary operator will only work with an 
+        assignemt on the left hand side and isn´t meant for pure execution operations */
 
         System.out.println("\n");
         input.close();
