@@ -47,6 +47,13 @@ public class DecisionMaking {
             System.out.println("\t 'a' and 'b' are equal");
         }
 
+         // IF-ELSE Statement - ONELINER
+        System.out.println("\n\t ----------------------------------");
+        System.out.println("\t IF-ELSE in ONELINE...");
+        System.out.println("\t ----------------------------------");
+        if(a % 2 == 0) System.out.println("\t 'a' is EVEN");
+        else System.out.println("\t 'a' is ODD");
+
         System.out.println("\n");
         input.close();
     }
