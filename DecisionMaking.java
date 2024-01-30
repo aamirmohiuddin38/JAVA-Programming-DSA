@@ -78,6 +78,13 @@ public class DecisionMaking {
         /* When JAVAC DOES ANY OF THE ABOVE COMPARISONS, IT RETURNS A boolean 'true', if the condition is TRUE and boolean 'false' if the condition
     is FALSE (here 1 and 0 is not considered as true or false) */
 
+        // IF - ELSE- Combining Multiple conditions
+        System.out.println("\n\t ----------------------------------");
+        System.out.println("\t IF-ELSE | Comparison Operators...");
+        System.out.println("\t ----------------------------------");
+        if(a<100 && a%2==0)  System.out.println("\t a < 100 and even"); //both conditions must be true - AND
+        if(a<100 || a%2==0)  System.out.println("\t a is either less than 100 or even"); //either of the condition must be true - OR
+
         System.out.println("\n");
         input.close();
     }
