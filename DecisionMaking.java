@@ -54,7 +54,7 @@ public class DecisionMaking {
         if(a % 2 == 0) System.out.println("\t 'a' is EVEN");
         else System.out.println("\t 'a' is ODD");
 
-        // IF-ELSE Statement - ONELINER
+        // TERNERY IF-ELSE Statement
         System.out.println("\n\t ----------------------------------");
         System.out.println("\t TERNERY IF-ELSE...");
         System.out.println("\t ----------------------------------");
@@ -64,6 +64,19 @@ public class DecisionMaking {
         
         /* the ternary operator will only work with an 
         assignemt on the left hand side and isn´t meant for pure execution operations */
+
+        // IF - ELSE IF-ELSE STATEMENT - comparing two numbers whether they are less, greater or equal
+        System.out.println("\n\t ----------------------------------");
+        System.out.println("\t IF-ELSE | Comparison Operators...");
+        System.out.println("\t ----------------------------------");
+        if(a<b) System.out.println("\t a<b is true");
+        if(a<=b) System.out.println("\t a<=b is true");
+        if(a==b) System.out.println("\t a==b is true");
+        if(a>b) System.out.println("\t a>b is true");
+        if(a>=b) System.out.println("\t a>=b is true");
+        if(a!=b) System.out.println("\t a!=b is true");
+        /* When JAVAC DOES ANY OF THE ABOVE COMPARISONS, IT RETURNS A boolean 'true', if the condition is TRUE and boolean 'false' if the condition
+    is FALSE (here 1 and 0 is not considered as true or false) */
 
         System.out.println("\n");
         input.close();
