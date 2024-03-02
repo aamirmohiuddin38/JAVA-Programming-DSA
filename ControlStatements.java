@@ -1,4 +1,7 @@
 // For Loop - syntax and examples
+
+import java.text.NumberFormat;
+
 public class ControlStatements {
     public static void main(String args[]){
         System.out.println("\033\143");
@@ -32,6 +35,15 @@ public class ControlStatements {
     System.out.println("\t--------------------------------------");
     for(int i=10; i>=0; i=i-2){
         System.out.println("\t "+ i);
+    }
+
+    //! Iterating over float
+    //? Incrementing by 0.1 - Ascending order
+    System.out.println("\n\t Increment by 0.1 - Ascending Order");
+    System.out.println("\t--------------------------------------");
+    for(float i=0; i<=1; i=i+0.1f){
+        System.out.println("\t "+ String.format("%4.1f",i));
+        // System.out.println(((Object) i).getClass().getName());
     }
 
         System.out.println("\n");
