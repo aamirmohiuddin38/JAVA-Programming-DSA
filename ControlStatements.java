@@ -46,6 +46,20 @@ public class ControlStatements {
         // System.out.println(((Object) i).getClass().getName());
     }
 
+    //! Iterating over char
+    //? Printing alphabets
+    System.out.println("\n\t a-z Alphabets..");
+    System.out.println("\t--------------------------");
+    for(char i='a'; i<='z'; i++){
+        System.out.println("\t "+ i);
+    }
+
+    System.out.println("\n\t A-Z Alphabets..");
+    System.out.println("\t--------------------------");
+    for(char i='A'; i<='Z'; i++){
+        System.out.println("\t "+ i);
+    }
+
         System.out.println("\n");
     }
 }
